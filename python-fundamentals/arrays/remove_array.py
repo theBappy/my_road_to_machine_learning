@@ -1,0 +1,11 @@
+import array as arr
+numeric_array = arr.array("i", [1, 2, 3, 4, 5])
+print("before removing element: ", numeric_array)
+numeric_array.pop(0)
+numeric_array.pop(1)
+print(numeric_array)
+# print(numeric_array)
+# print(numeric_array.pop(1))
+# numeric_array.remove(5)
+# numeric_array.remove(1)
+# print(numeric_array)
